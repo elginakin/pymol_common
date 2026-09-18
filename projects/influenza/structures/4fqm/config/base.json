@@ -1,0 +1,136 @@
+{
+  "schema_version": 1,
+  "title": "B/Brisbane/60/2008 influenza B hemagglutinin",
+  "structure": {
+    "pdb_id": "4fqm",
+    "output_prefix": "ha_4fqm",
+    "fetch_type": "pdb1",
+    "object_name": "ha_4fqm",
+    "focus_ha1_chain": "A",
+    "focus_ha2_chain": "B",
+    "context_ha1_chains": ["C", "E"],
+    "context_ha2_chains": ["D", "F"]
+  },
+  "numbering": {
+    "name": "sequential B/Brisbane/60/2008 HA1 numbering",
+    "explicit_author_ids": {
+      "164": "163A",
+      "165": "163B",
+      "166": "163C"
+    },
+    "offset_rules": [
+      {
+        "sequential_minimum": 167,
+        "author_offset": -3
+      }
+    ]
+  },
+  "colors": {
+    "ha_body": "#D3D7DD",
+    "ha_context": "#FCFCFF",
+    "site_120_blue": "#ADD9F5",
+    "site_150_blue": "#63ADE0",
+    "site_160_blue": "#2878BA",
+    "site_190_blue": "#0D3D7A",
+    "mutation_red": "#D7191C",
+    "glycan_gold": "#E6AB02",
+    "rbs_purple": "#7A4AAF"
+  },
+  "display": {
+    "show_context_protomers": true,
+    "context_transparency": 0.62,
+    "show_rbs": true,
+    "mutation_labels": false,
+    "antigenic_sphere_scale": 0.72,
+    "rbs_sphere_scale": 0.8,
+    "mutation_sphere_scale": 0.82,
+    "glycan_stick_radius": 0.22,
+    "emphasized_glycan_sphere_scale": 0.27,
+    "surface_quality": 1
+  },
+  "antigenic_sites": {
+    "120_loop": {
+      "enabled": true,
+      "author_resi": "116-137",
+      "sequential_residues": "116-137",
+      "color": "site_120_blue"
+    },
+    "150_loop": {
+      "enabled": true,
+      "author_resi": "141-150",
+      "sequential_residues": "141-150",
+      "color": "site_150_blue"
+    },
+    "160_loop": {
+      "enabled": true,
+      "author_resi": "162-167",
+      "sequential_residues": "162-170",
+      "color": "site_160_blue"
+    },
+    "190_helix": {
+      "enabled": true,
+      "author_resi": "194-202",
+      "sequential_residues": "197-205",
+      "color": "site_190_blue"
+    }
+  },
+  "rbs": {
+    "author_resi": [95, 140, 158, 191, 202, 238, 240],
+    "sequential_resi": [95, 140, 158, 194, 205, 241, 243],
+    "color": "rbs_purple"
+  },
+  "glycans": {
+    "HA1_N25": {
+      "enabled": true,
+      "selection": "chain O"
+    },
+    "HA1_N59": {
+      "enabled": true,
+      "selection": "chain A and resi 411"
+    },
+    "HA1_N145": {
+      "enabled": true,
+      "selection": "chain M"
+    },
+    "HA1_N197": {
+      "enabled": true,
+      "selection": "chain Q",
+      "emphasize": true,
+      "author_attachment_residue": 194
+    },
+    "HA1_N233": {
+      "enabled": true,
+      "selection": "chain A and resi 415"
+    },
+    "HA1_N304": {
+      "enabled": true,
+      "selection": "chain N"
+    },
+    "HA1_N333": {
+      "enabled": true,
+      "selection": "chain P"
+    },
+    "HA2_N145": {
+      "enabled": true,
+      "selection": "chain B and resi 600"
+    }
+  },
+  "camera": {
+    "turn_z": -90,
+    "turn_y": 150,
+    "zoom_buffer": 8,
+    "closeup_author_resi": "185-205",
+    "closeup_buffer": 10
+  },
+  "render": {
+    "width": 1800,
+    "height": 2400,
+    "dpi": 300,
+    "ray_trace": true,
+    "transparent_background": true
+  },
+  "paths": {
+    "figures": "outputs/figures",
+    "sessions": "outputs/sessions"
+  }
+}

@@ -1,0 +1,4 @@
+profile	description	mutations_sequential_ha1	mutations_4fqm_author	enabled_antigenic_sites	enabled_glycans
+base	Base 4FQM aesthetic with no mutation overlay.			120_loop,150_loop,160_loop,190_helix	HA1_N25,HA1_N59,HA1_N145,HA1_N197,HA1_N233,HA1_N304,HA1_N333,HA2_N145
+C.3.1	Example C.3.1 mutation layer requested by the author.	197,208	194,205	120_loop,150_loop,160_loop,190_helix	HA1_N25,HA1_N59,HA1_N145,HA1_N197,HA1_N233,HA1_N304,HA1_N333,HA2_N145
+C.5.6.1	Example C.5.6.1 mutation layer requested by the author.	199	196	120_loop,150_loop,160_loop,190_helix	HA1_N25,HA1_N59,HA1_N145,HA1_N197,HA1_N233,HA1_N304,HA1_N333,HA2_N145

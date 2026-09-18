@@ -1,11 +1,9 @@
-# Influenza project
+# Influenza structure-figure project
 
-This project folder contains influenza-specific scripts, notebooks, and docs that reuse shared code in `/src/pymol_common/common`.
+Production structure workflows are indexed in [structures](structures/README.md).
+Each structure has its own biological definitions, mutation profiles, tests,
+generated PyMOL scripts, and curated previews.
 
-## Structure
-- `src/`: project-specific Python modules
-- `notebooks/`: influenza analysis notebooks
-- `docs/`: influenza project notes and rendered outputs
-
-## Scaling pattern
-When adding a new project, create a sibling folder in `/projects` with the same three subfolders.
+The `src/` and `notebooks/` folders remain available for influenza-specific
+analysis code and exploratory work. Repository-wide user guides are in
+[`/docs`](../../docs/QUICKSTART.md).

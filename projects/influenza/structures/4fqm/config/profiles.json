@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "profiles": [
+    {
+      "name": "base",
+      "description": "Base 4FQM aesthetic with no mutation overlay.",
+      "mutations_sequential_ha1": [],
+      "glycan_overrides": {},
+      "antigenic_site_overrides": {}
+    },
+    {
+      "name": "C.3.1",
+      "description": "Example C.3.1 mutation layer requested by the author.",
+      "mutations_sequential_ha1": [197, 208],
+      "glycan_overrides": {},
+      "antigenic_site_overrides": {}
+    },
+    {
+      "name": "C.5.6.1",
+      "description": "Example C.5.6.1 mutation layer requested by the author.",
+      "mutations_sequential_ha1": [199],
+      "glycan_overrides": {},
+      "antigenic_site_overrides": {}
+    }
+  ]
+}
+
